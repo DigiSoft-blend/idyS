@@ -1,0 +1,17 @@
+body{
+   
+    background-image: url("images/lens-wallpaper-1280x768.jpg");
+    background-color: #cccccc;
+    overflow: hidden;
+    height: 1000px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: calibri;
+    
+ }
+
+ .link:hover{
+     font-size: 70px;
+     color: red;
+ }

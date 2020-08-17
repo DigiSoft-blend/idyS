@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">-
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!--link rel="icon" href="../../favicon.ico"-->
+
+    <title>Dashboard Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    
+    <!-- Custom styles for this template -->
+    <link  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"  rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/css/quiz.css" rel="stylesheet">
+
+   
+</head>
+
+ <body  style="background-color: rgb(49, 38, 66);">
+   
+    <div class="container-fluid">
+      <div class="row">
+
+        <div class="col-md-12">
+          <div class="container-fluid" style="background-color: rgb(123, 171, 172); border-radius: 10px;">
+         <a href="page2.html"> <button type="button" class="btn btn-default" style="display: flex; float: right;" >  <span class="fa fa-bars"  style="color: black;  font-size: 30px;" ></span>  </button></a> 
+          </div>
+      </div>
+       
+
+       <div class="col-md-12" style="background-color: rgb(242, 244, 250); color: black;">
+        <div class="container" style="background-color: rgb(27, 122, 102); width: 100%; font-size: 30px; border-radius: 2px;">  
+              <div style="text-align: center; background-color: rgb(17, 58, 51); border-radius: 5px;">
+                <br>
+                <span  class="fa fa-graduation-cap" style="font-size: 70px; color: crimson;"></span> <span style="font-size: 50px; color: crimson;">Quiz</span>
+                <br><hr>
+                <h1 style="text-align: center; background-color: rgb(43, 183, 226); border-radius: 10px; color: white;" > Questions</h1>
+              </div>
+              <hr>
+
+              <div style="text-align: center;">
+                <br>
+                <span class="fa fa-book" style="font-size: 50px; color: crimson;"></span>
+              </div>
+              
+          <p style="text-align: center; color: white;">(1) What is the html used for ?</p>
+
+          <div id="myDiv" class="col-md-12 div1">
+           <br> 
+          <span id="s1">A)<i> To structure a web page</i></span>  
+          <br>
+          <span>B)<i> To style a web page</i></span>
+          <h3 id="result" style="display: flex; float: right;"></h3>  
+          <br>
+          <span>C)<i> To hack a website</i></span> 
+          <br>
+          <span>D)<i> All of the above</span> 
+          <br>
+          <div id="none" style="text-align: center; color: white;">
+            <input  type="text" placeholder="Enter Option" id="text1" style="color: blue;"  size="10px">
+          <button type="button" class="btn btn-primary" onclick="btn1();">check</button>
+          </div>
+          <br>
+          </div>
+           
+          <div style="text-align: center;">
+            <br><br>
+            <span class="fa fa-book" style="font-size: 50px; color: crimson;"></span>
+          </div>
+          
+          <p style="text-align: center; color: white;">(2) What is CSS used for ?</p>
+          <div class="col-md-12 div1">
+            <br>
+          <span>A)<i> To play games on a website </i></span>  
+          <br>
+          <span>B)<i> To destroy a website</i></span>
+          <h3 id="result2" style="display: flex; float: right;"></h3>  
+          <br>
+          <span id="s2">C)<i> To style a web page</i></span> 
+          <br>
+          <span>D)<i> To structure a web page</span> 
+          <br>
+          <div id="none2" style="text-align: center; color: white;">
+            <input id="text2" type="text" placeholder="Enter Option" style="color: blue;" size="10px">
+          <button type="button" class="btn btn-primary" onclick="btn2();">check</button>
+          </div>
+          <br>
+          </div>
+          <br><br>
+
+          <div style="text-align: center;">
+            <span class="fa fa-book" style="font-size: 50px; color: crimson;"></span>
+          </div>
+          
+          <p style="text-align: center; color: white;">(3) What are the three basic langueges a front end developer should learn ?</p>
+
+          <div class="col-md-12 div1">
+            <br>
+          <span>A)<i> Assembly C and CSS  </i></span>  
+          <br>
+          <span>B)<i>Java  Python and Anaconda </i></span>
+          <h3 id="result3" style="display: flex; float: right;"></h3>  
+          <br>
+          <span>C)<i> C# C++ and JavaScript</i></span> 
+          <br>
+          <span id="s3">D)<i> HTML CSS and JavaScript</span> 
+          <br>
+          <div id="none3" style="text-align: center;">
+            <input id="text3" type="text" placeholder="Enter Option" style="color: blue;" size="10px">
+          <button type="button" class="btn btn-primary" onclick="btn3();">check</button>
+          </div>
+          <br> 
+          </div>
+          <br><br>
+
+          <div style="text-align: center;">
+            <span class="fa fa-book" style="font-size: 50px; color: crimson;"></span>
+          </div>
+          
+          <p style="text-align: center; color: white;">(4)  What is JavaScript Used for in front end web development ?</p>
+
+          <div class="col-md-12 div1">
+            <br>
+          <span>A)<i> Creat responsive websites  </i></span> 
+          <br>
+          <span id="s4">B)<i> Creat dynamic web pages</i></span>
+          <h3 id="result4" style="display: flex; float: right;"></h3>  
+          <br>
+          <span>C)<i> Hack websites </i></span> 
+          <br>
+          <span>D)<i> All of the above</span> 
+          <br>
+          <div id="none4" style="text-align: center;">
+            <input id="text4" type="text" placeholder="Enter Option" style="color: blue;" size="10px"> 
+          <button type="button" class="btn btn-primary" onclick="btn4();">check</button>
+          </div>
+          <br>
+          </div>
+          <br><br>
+
+          <div style="text-align: center;">
+            <span class="fa fa-book" style="font-size: 50px; color: crimson;"></span>
+          </div>
+
+          
+          <p style="text-align: center; color: white;">(5) What is the full meaning of HTTPS ?</p>
+
+          <div class="col-md-12 div1">
+            <br>
+          <span>A)<i> Hypertension transfer text protocol </i></span>  
+          <br>
+          <span>B)<i> Hightension transfer time protocol</i></span>
+          <h3 id="result5" style="display: flex; float: right;"></h3 >
+          <br>
+          <span>C)<i> Hyper transfer text protocol</i></span> 
+          <br>
+          <span id="s5">D)<i> Hyper text transfer protocol</i></span> 
+          <br>
+          <div id="none5" style="text-align: center;">
+            <input id="text5" type="text" placeholder="Enter Option" style="color: blue;" size="10px">
+          <button type="button" class="btn btn-primary" onclick="btn5();">check</button>
+          </div>
+          <br>
+          </div>
+          <br><br>
+         
+        </div>
+       </div>
+
+       
+      
+      </div>
+    </div>
+
+
+   
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js"></script>
+   <script src="js/main.js" ></script>
+
+ </body>
+</html>   
